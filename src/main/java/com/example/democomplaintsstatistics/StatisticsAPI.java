@@ -11,7 +11,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.event.ComplaintFiledEvent;
+import com.example.democomplaints.ComplaintFiledEvent;
 
 @ProcessingGroup("statistics")
 @RestController
